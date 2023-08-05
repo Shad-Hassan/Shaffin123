@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<html data-theme="black"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shafin Sadman Haq</title>
+    <link rel="shortcut icon" href="./Assets/icon1.ico" type="image/x-icon">
+    <!-- Tailwind and Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;}
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+        .font-work{
+            font-family: 'Work Sans', sans-serif;
+        }
+        
+        
+    </style>
+    <!-- SVG scripts -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <header class="relative my-2 md:my-0">
+    <div class="absolute -inset-3 bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-yellow-300 via-yellow-600 to-yellow-300 rounded-full h-[95%] blur-lg my-3"></div>
+    <div class="relative">
+      <nav class="flex justify-between items-center tb:none">
+      
+      
+      
+      
+      
+      
+        <div class="navbar h-14 bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 rounded-full text-[#FFFFFF] font-lato w-[99%] mx-auto">
+            <div class="nav-links duration-500 md:static absolute min-h-[60vh] left-0 top-[-1000%] md:w-auto flex items-center px-5"> 
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 font-roboto text-base">
+                    <li><a class="hover:text-yellow-300 font-bold">Home</a></li>            
+                    <li><a class="hover:text-yellow-300 font-bold">About</a></li>
+                    <li><a class="hover:text-yellow-300 font-bold">CV</a></li>
+                    <li><a class="hover:text-yellow-300 font-bold">Portfolio</a></li>
+                    <li><a class="hover:text-yellow-300 font-bold">Contact</a></li>
+                  </ul>         
+            </div>
+            
+            
+            
+            
+            
+            
+            <!-- Logo and profile box -->
+            <div class="w-full flex flex-row justify-between items-center gap-6 px-[5%]">
+              <div class="flex flex-row px-1 row font-work text-[105%] sm:text-[85%] md:text-[150%] lg:text-[180%] font-bold">
+                <img src="Assets/SS_logo.png" alt="" class="w-10 h-10 mr-4 md:flex items-center">
+                <p class="whitespace-nowrap flex items-center md:h-[90%]"><span class="text-yellow-300">S</span>hafin Sadman Haq</p>
+              </div>
+              <div class="flex flex-row-reverse items-center gap-6 md:ml-[20%]">
+                <img src="Assets/Shafin_profile.png" alt="" class="w-10 h-10">
+                <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-6xl cursor-pointer md:hidden w-8 h-8"></ion-icon>
+      
+              </div>
+            </div>
+            
+          </div>
+      </nav>
+    </div>
+    
+  </header>
+  <script>
+    const navLinks = document.querySelector('.nav-links')
+    function onToggleMenu(e){   
+      e.name = e.name === 'menu' ? 'close' : 'menu'
+      navLinks.classList.toggle('top-[10vh]');
+      navLinks.classList.toggle('left-[70vw]');
+      navLinks.classList.toggle('bg-gray-900');
+      
+    }
+  </script>
+  <main>
+    <header class="bg-gradient-to-r from-indigo-500 from-10% via-emerald-500-30% via-white-300-30% to- to-90%">
+      <!-- nav bar -->
+      <nav>
+
+      </nav>
+      <!-- banner section -->
+      <div class="w-[95%] mx-auto rounded-lg flex flex-col md:flex-row justify-between items-center py-16 px-4 md:px-32 my-[2vh]">
+          <div class="space-y-3 text-white">
+              <h1 class="text-3xl font-bebas">
+              <span class="text-yellow-300 text-6xl">Shaffin Sadman Haq</span>
+              <br>
+              <div font-work>
+              Business Development Executive
+              <br>Field Project Supervision
+              <br>Electrical Engineer
+              </div>
+              </h1>
+              <p class="text-xl">Let's Build To Shaping Tomorrow's Business Landscape</p>
+              <button class="py-4 px-8 bg-gradient-to-l from-yellow-400 to-yellow-300 rounded-xl uppercase text-blue-950 text-lg font-semibold flex justify-between">
+                                    
+                    <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M6.5 8C7.32843 8 8 7.32843 8 6.5C8 5.67157 7.32843 5 6.5 5C5.67157 5 5 5.67157 5 6.5C5 7.32843 5.67157 8 6.5 8Z" fill="#0D47A1"/>
+                      <path d="M5 10C5 9.44772 5.44772 9 6 9H7C7.55228 9 8 9.44771 8 10V18C8 18.5523 7.55228 19 7 19H6C5.44772 19 5 18.5523 5 18V10Z" fill="#0D47A1"/>
+                      <path d="M11 19H12C12.5523 19 13 18.5523 13 18V13.5C13 12 16 11 16 13V18.0004C16 18.5527 16.4477 19 17 19H18C18.5523 19 19 18.5523 19 18V12C19 10 17.5 9 15.5 9C13.5 9 13 10.5 13 10.5V10C13 9.44771 12.5523 9 12 9H11C10.4477 9 10 9.44772 10 10V18C10 18.5523 10.4477 19 11 19Z" fill="#0D47A1"/>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M20 1C21.6569 1 23 2.34315 23 4V20C23 21.6569 21.6569 23 20 23H4C2.34315 23 1 21.6569 1 20V4C1 2.34315 2.34315 1 4 1H20ZM20 3C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H20Z" fill="#0D47A1"/>
+                      </svg>
+
+
+                    
+                  Connect </button>
+          </div>
+          
+          <div>
+              <img src="Assets/Shafin_profile.png" alt="">
+          </div>
+      </div>
+  </header>
+  </main>
+  <section>
+    
+  </section>
+    
+</body>
+</html>
