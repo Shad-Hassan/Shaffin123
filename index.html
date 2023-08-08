@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shafin Sadman Haq</title>
-    <link rel="shortcut icon" href="./Assets/icon1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Tailwind and Daisy UI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -41,7 +41,7 @@
       
       
         <div class="navbar h-14 bg-gradient-to-r from-blue-700 via-blue-800 to-blue-900 rounded-full text-[#FFFFFF] font-lato w-[99%] mx-auto">
-            <div class="nav-links duration-500 md:static absolute min-h-[60vh] left-0 top-[-1000%] md:w-auto flex items-center px-5"> 
+            <div class="nav-links duration-0 md:static absolute min-h-[30vh] left-0 top-[-1000%] md:w-auto flex items-center px-5"> 
                 <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 font-roboto text-base">
                     <li><a class="hover:text-yellow-300 font-bold">Home</a></li>            
                     <li><a class="hover:text-yellow-300 font-bold">About</a></li>
@@ -55,7 +55,7 @@
             
             
             
-            
+            <!-- Logo UI -->
             <!-- Logo and profile box -->
             <div class="w-full flex flex-row justify-between items-center gap-6 px-[5%]">
               <div class="flex flex-row px-1 row font-work text-[105%] sm:text-[85%] md:text-[150%] lg:text-[180%] font-bold">
@@ -78,8 +78,8 @@
     const navLinks = document.querySelector('.nav-links')
     function onToggleMenu(e){   
       e.name = e.name === 'menu' ? 'close' : 'menu'
-      navLinks.classList.toggle('top-[10vh]');
-      navLinks.classList.toggle('left-[70vw]');
+      navLinks.classList.toggle('top-[8vh]');
+      navLinks.classList.toggle('left-[72vw]');
       navLinks.classList.toggle('bg-gray-900');
       
     }
